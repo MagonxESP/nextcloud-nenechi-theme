@@ -1,0 +1,37 @@
+#body-login {
+  background-image: url(asset_from_component('assets/img/background.jpg')) !important;
+  background-color: $background-primary-color !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  @media only screen and (max-width: 1200px) {
+    background-image: none !important;
+  }
+
+  .wrapper {
+    margin-top: 20vh;
+
+    main {
+      > div > div {
+        margin-top: -30px;
+      }
+
+      .lost-password-container {
+        margin-top: -30px;
+      }
+
+      .login-additional {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .logo {
+    visibility: hidden;
+    background-image: url(asset_from_component($logo_path)) !important;
+
+    @media only screen and (max-width: 1200px) {
+      visibility: visible;
+    }
+  }
+}

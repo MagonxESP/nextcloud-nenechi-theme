@@ -1,0 +1,17 @@
+@mixin logo_background($size) {
+  content: "";
+  background-image: $logo;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: $size;
+  height: $size;
+  opacity: 0.3;
+  bottom: 0;
+  z-index: -1;
+}
+
+@function asset_from_component($path) {
+  @return '../../' + $path;
+}

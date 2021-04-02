@@ -1,0 +1,15 @@
+{
+    "name": "Nenechi Theme",
+    "description": "Nenechi theme",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "MagonxESP"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url(../assets/images/cf3d8690bffa563fb10bd2d78b91c2ed.TTF);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url(../assets/images/9b89f236df07a9cc9d6469d7fdf6c49d.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url(../assets/images/39357511b47585eb2fd0b839db40a2ed.ttf);
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url(../assets/images/92557e6ed016730cc7652c3ee2f691e2.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
 #body-user #header,
 #body-settings #header,
 #body-public #header {
@@ -51,6 +73,10 @@
 #body-login.login-page-has-form #header .logo {
   margin-bottom: 0 !important;
   border-bottom: none;
+}
+
+body {
+  font-family: "Comic Sans MS", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Cantarell, Ubuntu, Helvetica Neue, Arial, Noto Color Emoji, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 /*# sourceMappingURL=style.css.map*/

@@ -1,3 +1,56 @@
-#body-user #header,#body-settings #header,#body-public #header{background-color:#ed8b5e !important;background-image:none !important}#body-user #app-content{background-image:url(../assets/images/7808f13294926b57dba18e2a96c76912.png);background-position:left bottom;background-repeat:no-repeat;background-size:150px}#body-login{background-image:url(../assets/images/c028c589b18b826a090b6f0b6205bba4.jpg) !important;background-color:#ed8b5e !important;background-repeat:no-repeat;background-position:bottom center}@media only screen and (max-width: 1200px){#body-login{background-image:none !important}}#body-login .wrapper{margin-top:20vh}#body-login .wrapper main>div>div{margin-top:-30px}#body-login .wrapper main .lost-password-container{margin-top:-30px}#body-login .wrapper main .login-additional{margin-top:0}#body-login .logo{visibility:hidden;background-image:url(../assets/images/7808f13294926b57dba18e2a96c76912.png) !important}@media only screen and (max-width: 1200px){#body-login .logo{visibility:visible}}
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+  background-color: #ed8b5e !important;
+  background-image: none !important;
+}
+
+#body-user #app-content {
+  background-image: url(../assets/images/7808f13294926b57dba18e2a96c76912.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+#body-login {
+  background-image: url(../assets/images/c028c589b18b826a090b6f0b6205bba4.jpg) !important;
+  background-color: #ed8b5e !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+@media only screen and (max-width: 1200px) {
+  #body-login {
+    background-image: none !important;
+  }
+}
+#body-login .wrapper {
+  margin-top: 20vh;
+}
+#body-login .wrapper main form fieldset {
+  margin-top: 0;
+}
+#body-login .wrapper main form input:first-child {
+  margin-top: 0;
+}
+#body-login .wrapper main .lost-password-container {
+  margin-top: 0;
+}
+#body-login #header .logo {
+  visibility: hidden;
+  background-image: url(../assets/images/7808f13294926b57dba18e2a96c76912.png) !important;
+  border-bottom: #fff solid 6px;
+}
+@media only screen and (max-width: 1200px) {
+  #body-login #header .logo {
+    visibility: visible;
+  }
+}
+#body-login.login-page-has-form #header {
+  max-height: 200px;
+}
+#body-login.login-page-has-form #header .logo {
+  margin-bottom: 0 !important;
+  border-bottom: none;
+}
 
 /*# sourceMappingURL=style.css.map*/

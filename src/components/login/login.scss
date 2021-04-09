@@ -12,26 +12,44 @@
     margin-top: 20vh;
 
     main {
-      > div > div {
-        margin-top: -30px;
+      form {
+        fieldset {
+          margin-top: 0;
+        }
+
+        input {
+          &:first-child {
+            margin-top: 0;
+          }
+        }
       }
 
       .lost-password-container {
-        margin-top: -30px;
-      }
-
-      .login-additional {
         margin-top: 0;
       }
     }
   }
 
-  .logo {
-    visibility: hidden;
-    background-image: url(asset_from_component($logo_path)) !important;
+  #header {
+    .logo {
+      visibility: hidden;
+      background-image: url(asset_from_component($logo_path)) !important;
+      border-bottom: #fff solid 6px;
 
-    @media only screen and (max-width: 1200px) {
-      visibility: visible;
+      @media only screen and (max-width: 1200px) {
+        visibility: visible;
+      }
+    }
+  }
+
+  &.login-page-has-form {
+    #header {
+      max-height: 200px;
+
+      .logo {
+        margin-bottom: 0 !important;
+        border-bottom: none;
+      }
     }
   }
 }

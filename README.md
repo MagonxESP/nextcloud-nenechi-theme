@@ -1,6 +1,12 @@
 # Nenechi Theme
 Place this app in **nextcloud/apps/**
 
+## Screenshots
+
+![files_view](docs/img/all-files-view.png)
+![login](docs/img/login-desktop.png)
+![login_mobile](docs/img/login-mobile.png)
+
 ## Building the app
 
 The app can be built by using the provided Makefile by running:
